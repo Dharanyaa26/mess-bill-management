@@ -1,21 +1,22 @@
 # Mess Bill Management System
 
-This project is a Python-based application used to calculate and manage mess bills efficiently.
+A Python-based Mess Bill Management System that helps manage student meal records and automatically calculate monthly mess bills using a MySQL database.
 
 ## Features
-- Add member expenses
-- Calculate total mess bill
-- Automatic bill calculation
-- Simple and user-friendly program
+- Add and manage student details
+- Record breakfast, lunch, and dinner meals
+- Automatic mess bill calculation
+- View complete mess bill report
+- Search student by ID or name
+- Delete student records
+- Export mess bill reports to CSV
+- Generate bill for a single student
 
 ## Technologies Used
 - Python
+- MySQL Database
+- mysql-connector-python
+- CSV File Handling
 
-## How to Run
-1. Download or clone the repository
-2. Open terminal in project folder
-3. Run:
-   python main.py
-
-## Author
-Dharanyaa
+## Database Used
+MySQL database named:
